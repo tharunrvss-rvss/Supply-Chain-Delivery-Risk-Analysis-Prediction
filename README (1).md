@@ -1,10 +1,10 @@
-# 📦 Supply Chain Delivery & Profitability Analysis
+#  Supply Chain Delivery & Profitability Analysis
 
 > **Data Science project focused on identifying delivery bottlenecks, quantifying the financial impact of delays, and predicting late-delivery risk.**
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 This project analyzes end-to-end order fulfillment data from a global e-commerce operation selling products such as sporting goods.
 
@@ -24,7 +24,7 @@ The overall goal is to **reduce delivery delays, improve shipping decisions, and
 
 ---
 
-## 🎯 Business Objectives
+##  Business Objectives
 
 1. Measure the organization's delivery performance.
 2. Identify the scale and distribution of late deliveries.
@@ -35,7 +35,7 @@ The overall goal is to **reduce delivery delays, improve shipping decisions, and
 
 ---
 
-## 📊 Dataset
+##  Dataset
 
 The analysis uses the **DataCo Supply Chain Dataset**.
 
@@ -51,10 +51,9 @@ The original dataset contained **no duplicate rows**. Data quality checks identi
 
 ---
 
-## 🧹 Data Cleaning & Preparation
+##  Data Cleaning & Preparation
 
-The notebook performs the following preprocessing steps:
-
+The data undergoes the following preprocessing steps :
 - Removes unnecessary, redundant, fully missing, or non-informative columns.
 - Removes sensitive customer information such as email addresses and passwords.
 - Removes geographic fields that were not required for this analysis.
@@ -96,7 +95,7 @@ Delay > 0
 
 ---
 
-## 🔍 Exploratory Data Analysis
+##  Exploratory Data Analysis
 
 The project investigates:
 
@@ -112,7 +111,7 @@ The project investigates:
 
 ---
 
-## 📈 Key Business KPIs
+##  Key Business KPIs
 
 The cleaned analysis produced the following KPIs:
 
@@ -132,7 +131,7 @@ More than half of the analyzed orders experienced delivery delays. The analysis 
 
 ---
 
-## 🚚 Delivery Performance
+##  Delivery Performance
 
 The cleaned dataset shows three delivery-status categories:
 
@@ -146,7 +145,7 @@ The project further derives delay from actual versus scheduled shipping time, al
 
 ---
 
-## 💰 Profitability Analysis
+##  Profitability Analysis
 
 The project examines how profitability changes with delivery delay.
 
@@ -162,7 +161,7 @@ The analysis is designed to determine whether increasing delivery delays are ass
 
 ---
 
-## 🔎 Bottleneck & Root-Cause Analysis
+##  Bottleneck & Root-Cause Analysis
 
 The analysis explores potential delay drivers across:
 
@@ -183,7 +182,7 @@ This helps move the analysis from simply identifying that delays exist to unders
 
 ---
 
-## 🤖 Machine Learning
+##  Machine Learning
 
 ### Prediction objective
 
@@ -255,7 +254,7 @@ Class 0: 79,182
 
 ---
 
-## 🌲 Random Forest Results
+##  Random Forest Results
 
 A Random Forest Classifier was trained on the balanced training data.
 
@@ -298,69 +297,11 @@ The Random Forest model provides a useful baseline predictive system for identif
 
 ### Environment
 
-- **Jupyter Notebook**
+- **Jupyter Lab**
 
 ---
 
-## 📁 Project Structure
-
-```text
-Supply-Chain-Analysis/
-│
-├── Supply_Chain_Analysis.ipynb
-├── DataCoSupplyChainDataset.csv
-├── README.md
-└── requirements.txt
-```
-
-> Keep the dataset file in the same directory as the notebook if you want to run the notebook without changing the data-loading path.
-
----
-
-## 🚀 How to Run the Project
-
-### 1. Clone the repository
-
-```bash
-git clone <your-github-repository-url>
-cd Supply-Chain-Analysis
-```
-
-### 2. Install dependencies
-
-```bash
-pip install pandas numpy matplotlib seaborn scikit-learn imbalanced-learn jupyter
-```
-
-Or, if a `requirements.txt` file is included:
-
-```bash
-pip install -r requirements.txt
-```
-
-### 3. Launch Jupyter Notebook
-
-```bash
-jupyter notebook
-```
-
-### 4. Open
-
-```text
-Supply_Chain_Analysis.ipynb
-```
-
-### 5. Run all cells
-
-Make sure the dataset is available at the path expected by the notebook:
-
-```text
-DataCoSupplyChainDataset.csv
-```
-
----
-
-## 💡 Business Recommendations
+##  Business Recommendations
 
 Based on the analysis framework and KPI results, organizations can use the model and analysis to:
 
@@ -373,7 +314,7 @@ Based on the analysis framework and KPI results, organizations can use the model
 
 ---
 
-## 📌 Project Highlights
+##  Project Highlights
 
 ### Business Analysis
 
@@ -393,7 +334,7 @@ Based on the analysis framework and KPI results, organizations can use the model
 
 ---
 
-## 📚 Skills Demonstrated
+##  Skills Demonstrated
 
 This project demonstrates practical skills in:
 
@@ -416,16 +357,9 @@ Business Problem Solving
 
 ---
 
-## 👤 Author
+##  Author
 
-**Tharun**
-
-Architecture Student | Aspiring Data Analyst / Data Scientist
+**Ramavath Venkata Shiva Sai Tharun**
 
 This project was developed as part of a data analytics and machine learning portfolio for demonstrating practical business problem-solving skills.
 
----
-
-## ⭐ If You Find This Project Useful
-
-If this project helped you understand supply-chain analytics or delivery-risk prediction, consider giving the repository a ⭐ on GitHub.
